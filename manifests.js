@@ -25,9 +25,15 @@
             dream: true,
             sapphire: true,
             bravo: true,
+            bravoc: true,
             espresso: true,
+            vision: true,
             supersonic: true,
-            liberty: true
+            liberty: true,
+            legend: true,
+            z71: true,
+            one: true,
+            ace: true
         }
     },
     {
@@ -77,8 +83,14 @@
             dream: true,
             sapphire: true,
             bravo: true,
+            bravoc: true,
             supersonic: true,
-            heroc: true
+            heroc: true,
+            legend: true,
+            vision: true,
+            z71: true,
+            one: true,
+            ace: true
         }
     },
     {
@@ -151,16 +163,29 @@
         id: "JRummy16",
         summary: "Source built roms and custom themes",
         manifest: "http://froyoroms.com/files/developers/jrummy/JRummy/Rom_Manager/jared.js",
+        free: true,
         roms:
         {
-            sholes: true
+            sholes: true,
+            inc: true
         }
+    },
+    {
+    	developer: "JRummy16",
+    	id: "JRummy16",
+    	summary: "So awesome that Chuck Norris runs it as his daily ROM ;)",
+    	manifest: "http://froyoroms.com/files/developers/jrummy/JRummy/Rom_Manager/jrummy.js",
+    	free: true,
+    	roms:
+    	{
+    		droidx: true
+    	}
     },
     {
         developer: "Smoked Glass-Esque",
         id: "m3kilpat",
         summary: "Smoked glass inspired themes that can be installed over CyanogenMod",
-        manifest: "http://github.com/m3kilpat/ROMManagerManifest/raw/master/kilpat.js",
+        manifest: "http://m3kilpat.github.com/ROMManager/kilpat.js",
         roms:
         {
             sholes: true
@@ -285,6 +310,7 @@
         manifest: "http://gh-pages.clockworkmod.com/ROMManagerManifest/pershoot.js",
         roms:
         {
+            vision: true,
             passion: true,
             sapphire: true,
             dream: true,
@@ -441,17 +467,15 @@
     {
         developer: "CrunchySoft",
         id: "crunchybutternut",
-        summary: "Fast and fully themed ROMs for the CDMA Hero by crunchybutternut.",
+        summary: "Fast and fully themed ROMs for the CDMA Hero/HTC Evo by crunchybutternut.",
         free: true,
         manifest: "http://crunchysoft.pocketdevelopers.com/ROMManagerManifest/crunchysoft.js",
         roms:
         {
-            heroc: true
-
+            heroc: true,
+            supersonic: true
         }
     },
-
-
     {
         developer: "Setenza",
         id: "Setenza",
@@ -480,7 +504,7 @@
         developer: "cvpcs",
         id: "cvpcs",
         summary: "Source-based mods made by CVPCS",
-        manifest: "http://github.com/cvpcs/android_vendor_cvpcs/raw/froyo-gem/rommanager/cvpcs-rmm.js",
+        manifest: "http://cvpcs.github.com/android_vendor_cvpcs/cvpcs-rmm.js",
         free: true,
         roms:
         {
@@ -595,12 +619,13 @@
     {
         developer: "Jamezelle",
         id: "jamezelle",
-        summary: "ROMS for the Droid Eris!",
-        manifest: "http://github.com/jamezelle/ROM-Manager-Manifest/raw/master/jamezelle.js",
+        summary: "ROMS for the Droid and Droid Eris!",
+        manifest: "http://jamezelle.com/RomManagerManifest/manifest.js",
         free: true,
         roms:
         {
-            desirec: true
+            desirec: true,
+            sholes: true
         }
     },
     {
@@ -640,7 +665,7 @@
         developer: "Velocity",
         id: "bryan",
         summary: "Velocity by Trident",
-        manifest: "http://dev-mob.com/trident/ROMManagerManifest/manifest.js",
+        manifest: "http://trident.noodlesoftware.com/ROMManagerManifest/manifest.js",
         free: true,
         roms:
         {
@@ -671,12 +696,13 @@
     {
         developer: "Virtuous",
         id: "virtuous",
-        summary: "Stock Sense Froyo with Essential Fixes and Enhancements",
-        manifest: "http://www.fourty.net/ftp/public/android/virtuous.js",
+        summary: "Stock Sense ROMs with Essential Fixes and Enhancements and Other Goodies by rmk.",
+        manifest: "http://files.virtuousrom.com/virtuous.js",
         free: true,
         roms:
         {
-            inc: true
+            inc: true,
+            vision: true
         }
     },
     {
@@ -703,18 +729,6 @@
         }
     },
     {
-        developer: "Andrizoid",
-        id: "Andrizoid",
-        summary: "All my projects can be found here",
-        manifest: "http://ken.appfabulo.us/Rom-Manager/rom-manager-manifest.js",
-        free: true,
-        roms:
-        {
-            inc: true,
-            desirec: true
-        }
-    },
-    {
         developer: "Uncommon Sense",
         id: "uncommonsense",
         summary: "Rosie like you've never seen her before.",
@@ -737,10 +751,10 @@
         }
     },
     {
-        developer: "MIUI Android ROM (EVO)",
-        id: "miui",
-        summary: "Still experimental.  See http://forum.xda-developers.com/showthread.php?t=791378",
-        manifest: "http://github.com/pcmac77/MIUI-Supersonic-ROM-Manager-Manifest/raw/master/miui-supersonic-manifest.js",
+        developer: "bcnice20",
+        id: "bcnice20",
+        summary: "MIUI Android Rom for the HTC EVO",
+        manifest: "http://www.thebcblends.com/bcnice20/MIUI/bcblend.js",
         free: true,
         roms:
         {
@@ -800,6 +814,115 @@
         {
             sholes: true
         }
+    },
+    {
+        developer: "MIUI",
+        id: "nixmiui",
+        summary: "MIUI ports by n_i_x",
+        manifest: "http://rommanagermanifest.appspot.com/developer/nixmiui.js",
+        free: true,
+        roms:
+        {
+            inc: true
+        }
+    },
+    {
+        developer: "Fabolous",
+        id: "fabolous",
+        summary: "ROMS and Themes for Droid X",
+        manifest: "http://fabdroid.com/rommanager/fabolous.js",
+        free: true,
+        roms:
+        {
+            droidx: true
+        }
+    },
+    {
+        developer: "GFlam",
+        id: "GFlam",
+        summary: "Custom Themes for multiple roms",
+        manifest: "http://rommanagergflam.classnotesmp3.com/Livewire.js",
+        roms:
+        {
+            sholes: true
+        }
+    },
+    {
+        developer: "Berzerker",
+        id: "berzerker",
+        summary: "Modifications for the HTC Incredible by Berzerker",
+        manifest: "http://fourty.net/~berzerker/rosiemod/rosiemod.js",
+        free: true,
+        roms:
+        {
+            inc: true
+        }
+    },
+    {
+        developer: "jt1134",
+        id: "jt1134",
+        summary: "Super Clean ROM for Samsung Fascinate",
+        manifest: "http://deodexed.com/ROMManagerManifest/jt1134/jt1134.js",
+        free: true,
+        roms:
+        {
+            fascinate: true
+        }
+    },
+    {
+        developer: "Deodexed Elements Series",
+        id: "Deodexed",
+        summary: "Elements Rom Series, Zinc Rom for the Samsung Fascinate",
+        manifest: "http://deodexed.com/ROMManagerManifest/deodexed_manifest.js",
+        free: true,
+        roms:
+        {
+            fascinate: true
+        }
+    },
+    {
+        developer: "Sonofskywalker3",
+        id: "Sonofskywalker3",
+        summary: "Blackhole build your own ROM series, full customization",
+        manifest: "http://www.androiddoes.net/sonofskywalker3/Manifest/Sonofskywalker3_Manifest.js",
+        free: true,
+        roms:
+        {
+            fascinate: true
+        }
+    },
+    {
+        developer: "DopeShiziot",
+        id: "DopeShiziot",
+        summary: "This shiz is dope!",
+        manifest: "http://dope.appfabulo.us/RM/rom-manager-manifest.js",
+        free: true,
+        roms:
+        {
+            inc: true
+        }
+    },
+    {
+        developer: "geeknik",
+        id: "geeknikbrian",
+        summary: "Kernels for Samsung Fascinate",
+        manifest: "http://totalnerdity.com/ROMManagerManifest/geeknik_manifest.js",
+        free: true,
+        roms:
+        {
+            fascinate: true
+        }
+    },
+    {
+        developer: "davidjr621",
+        id: "davidjr621",
+        summary: "Axiom Sixty6 - Custom ROM for the Droid (Sholes)",
+        manifest: "http://dl.dropbox.com/u/9372031/Axiom/axiom.js",
+        roms:
+        {
+            sholes: true
+        }
     }
     ]
 }
+

@@ -5,6 +5,8 @@
 
     legacy:
     [
+    "2.5.1.4",
+    "2.5.1.3",
     "2.5.1.1",
     "2.5.1.0",
     "2.5.0.1",
@@ -171,8 +173,8 @@
         version: "2.5.0.5",
         alternate_recovery:
         {
-            name: "RA_GNM Recovery v1.7.6",
-            url: "http://www.getitnowmarketing.noodlesoftware.com/recovery/recovery-RA-inc_v1.7.0.6_GNM.img"
+            name: "RA_GNM Recovery v1.8.1",
+            url: "http://www.getitnowmarketing.noodlesoftware.com/recovery/recovery-RA-inc-v1.8.1-GNM.img"
         }
     },
 
@@ -183,7 +185,7 @@
         version: "2.5.0.1",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.desirec.rc",
         key: "desirec",
@@ -204,14 +206,14 @@
         version: "2.5.0.1",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.qcom.rc",
         key: "streak",
         name: "Dell Streak",
         version: "2.5.0.1"
     },
-    
+
     {
         init: "init.latte.rc",
         key: "espresso",
@@ -219,7 +221,7 @@
         version: "2.5.0.1",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.smdkc110.rc",
         key: "galaxys",
@@ -227,7 +229,7 @@
         version: "2.5.1.2",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.smdkc110.rc",
         key: "fascinate",
@@ -235,7 +237,7 @@
         version: "2.5.1.0",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.smdkc110.rc",
         key: "epic",
@@ -243,7 +245,7 @@
         version: "2.5.1.0",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.smdkc110.rc",
         key: "vibrant",
@@ -251,7 +253,7 @@
         version: "2.5.1.2",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.smdkc110.rc",
         key: "captivate",
@@ -274,11 +276,11 @@
         version: "2.5.0.5",
         alternate_recovery:
         {
-            name: "RA_GNM Recovery v1.2.4",
-            url: "http://www.getitnowmarketing.noodlesoftware.com/recovery/recovery-aloha-RA_GNM_v1.2.4.img"
+            name: "RA_GNM Recovery v1.2.5",
+            url: "http://www.getitnowmarketing.noodlesoftware.com/recovery/recovery-aloha-RA-v1.2.5-GNM.img"
         }
     },
-    
+
     {
         init: "init.mapphone_cdma.rc",
         key: "milestone",
@@ -286,7 +288,7 @@
         version: "2.5.0.1",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.mapphone_cdma.rc",
         key: "droidx",
@@ -295,12 +297,64 @@
         reboot_recovery: "echo 1 > /data/.recovery_mode ; sync ; reboot ;",
         readonly_recovery: true
     },
-    
+
     {
         init: "init.salsa.rc",
         key: "salsa",
         name: "Acer Liquid",
         version: "2.5.1.0"
+    },
+
+    {
+        init: "init.foo.rc",
+        key: "m6000",
+        name: "Kyocera M6000",
+        version: "2.5.1.1"
+    },
+
+    {
+        init: "init.qcom.rc",
+        key: "z71",
+        name: "Commtiva Z71 (Boston, Blaze, and more)",
+        version: "2.5.1.3"
+    },
+
+    {
+        init: "init.motus.rc",
+        key: "backflip",
+        name: "Motorola Backflip",
+        version: "2.5.1.1"
+    },
+
+    {
+        init: "init.vision.rc",
+        key: "vision",
+        name: "HTC G2",
+        version: "2.5.1.3",
+        flash_recovery: "dd if=%s of=/dev/block/mmcblk0p21 bs=262144 ; "
+    },
+
+    {
+        init: "init.glacier.rc",
+        key: "glacier",
+        name: "HTC MyTouch 4G",
+        version: "2.5.1.2",
+        flash_recovery: "dd if=%s of=/dev/block/mmcblk0p21 bs=262144 ; "
+    },
+
+    {
+        init: "init.spade.rc",
+        key: "ace",
+        name: "HTC Desire HD",
+        version: "2.5.1.3",
+        flash_recovery: "dd if=%s of=/dev/block/mmcblk0p21 bs=262144 ; "
+    },
+
+    {
+        init: "init.morrison.rc",
+        key: "morrison",
+        name: "Motorola Cliq",
+        version: "2.5.1.2"
     },
 
     {
@@ -310,6 +364,38 @@
         version: "2.5.0.8",
         reboot_recovery: "echo 1 > /data/.recovery_mode ; sync ; reboot ;",
         readonly_recovery: true
+    },
+
+    {
+        init: "init.qcom.rc",
+        key: "one",
+        name: "Geeksphone ONE",
+        version: "2.5.1.3",
+        alternate_recovery:
+        {
+            name: "ONE Recovery v1.6",
+            url: "http://dl.dropbox.com/u/10355648/recovery-ONE-1_6.img"
+        }
+    },
+    
+    {
+        init: "init_recovery.rc",
+        key: "vega",
+        name: "Advent Vega",
+        version: "2.5.1.4",
+        reboot_recovery: "echo start > /proc/ota ; "
+    },
+
+    {
+        init: "init.qcom.rc",
+        key: "FM6",
+        name: "Spice MI700, Commtiva Link N700 and more)",
+        version: "2.5.1.2",
+        alternate_recovery:
+        {
+            name: "MI700 Recovery v1.6",
+            url: "http://dl.dropbox.com/u/15816725/MI700-recovery-V1_3.img"
+        }
     }
     ]
 }
